@@ -3,6 +3,7 @@
 # Libraries
 import math
 import random
+
 # Generate random coordinates (a, b) within the unit square                        
 def getRandomPoint():
    xmult = round( random.random() )
@@ -41,6 +42,7 @@ def main():
       while( i < numberOfDarts ):
          hits = dartThrow( hits )
          i += 1
+         
       # Calculate the approximation of PI
       approxPI = 4.0 * (float( hits ) / float( numberOfDarts ) )
       # Output the real value of PI and the approximation
