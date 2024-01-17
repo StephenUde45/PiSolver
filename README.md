@@ -1,4 +1,6 @@
 # PI Solver Code
+
+# Libraries
 import math
 import random
 # Generate random coordinates (a, b) within the unit square                        
